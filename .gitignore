@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+log-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / caches
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Coverage
+coverage/
+
+# Render / Vercel specific
+.vercel/
+.render/
+
+# Misc
+*.tgz
+*.bak
+*.swp
