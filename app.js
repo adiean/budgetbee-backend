@@ -6,7 +6,8 @@ const categoryRouter = require("./routes/categoryRouter");
 const transactionRouter = require("./routes/tansactionRouter");
 const cors = require("cors");
 const app = express();
-const URL = "mongodb+srv://<db_username>:<db_password>@budgetbee.geixrkv.mongodb.net/?retryWrites=true&w=majority&appName=budgetbee";
+const URL = process.env.DATABASE_URL;
+
 
 //! Connect to mongoDb
 mongoose
