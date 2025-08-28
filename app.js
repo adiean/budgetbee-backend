@@ -6,11 +6,11 @@ const categoryRouter = require("./routes/categoryRouter");
 const transactionRouter = require("./routes/tansactionRouter");
 const cors = require("cors");
 const app = express();
-const URI = "mongodb+srv://<db_username>:<db_password>@budgetbee.geixrkv.mongodb.net/?retryWrites=true&w=majority&appName=budgetbee";
+const URL = "mongodb+srv://<db_username>:<db_password>@budgetbee.geixrkv.mongodb.net/?retryWrites=true&w=majority&appName=budgetbee";
 
 //! Connect to mongoDb
 mongoose
-  .connect(URI)
+  .connect(URL)
   .then(() => console.log("connected to db"))
   .catch((e) => console.log(e));
 
