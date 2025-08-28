@@ -6,7 +6,7 @@ const categoryRouter = require("./routes/categoryRouter");
 const transactionRouter = require("./routes/tansactionRouter");
 const cors = require("cors");
 const app = express();
-const URL = process.env.DATABASE_URL;
+const URL = process.env.database_url;
 
 
 //! Connect to mongoDb
